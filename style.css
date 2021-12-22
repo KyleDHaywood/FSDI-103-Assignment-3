@@ -1,0 +1,32 @@
+body {
+  background-color: rgba(45, 45, 45, 0.911);
+  justify-content: center;
+}
+main {
+  width: 768px;
+  margin-bottom: 5%;
+  justify-content: center;
+  background-image: linear-gradient(rgb(96, 96, 96), rgb(211, 211, 211));
+  justify-items: center;
+}
+
+header {
+  color: antiquewhite;
+}
+#results {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: lightgray;
+  align-items: center;
+}
+.results {
+  font-size: 20px;
+  width: 60%;
+  color: blueviolet;
+  border: 3px dotted purple;
+}
+
+footer {
+  background-color: lightgray;
+}
